@@ -1,0 +1,72 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Node.js
+node_modules
+dist
+build
+
+# Temporary files and directories
+.temp
+.tmp
+
+# IDEs and editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+.DS_Store
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tests and coverage
+/coverage
+/.nyc_output
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Exclude specific dist folders for client and server
+client/dist
+server/dist
+client/dist-ssr
+server/package-lock.json
+
+# OS-specific files
+.DS_Store
+
+# Monorepo tools
+pnpm-lock.yaml
+
+# Игнорировать все package-lock.json
+**/package-lock.json
