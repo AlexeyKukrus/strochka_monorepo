@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HomePage } from '../../pages/HomePage/HomePage';
-import { AuthPage } from '../../pages/AuthPage/AuthPage';
-import { NotFoundPage } from '../../pages/NotFoundPage/NotFoundPage';
+import { HomePage } from '../pages/HomePage/HomePage';
+import { AuthPage } from '../pages/AuthPage/AuthPage';
+import { NotFoundPage } from '../pages/NotFoundPage/NotFoundPage';
 
-const AppRoutes: React.FC = () => {
+export const AppRoutes: React.FC = () => {
   return (
     <Router>
       <Routes>
@@ -16,4 +16,3 @@ const AppRoutes: React.FC = () => {
   );
 };
 
-export default AppRoutes;

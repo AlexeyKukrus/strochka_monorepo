@@ -21,7 +21,7 @@ npm install -g pnpm
 
 ```bash
 pnpm install
-npm run install
+npm run setup
 ```
 Запуск проекта
 Для разработки

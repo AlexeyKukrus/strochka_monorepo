@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "install": "pnpm install",
+    "setup": "pnpm install",
     "dev": "pnpm run build && nest start --watch",
     "test": "pnpm -r run test",
     "lint": "eslint './client/src/**/*.ts' './server/src/**/*.ts' --fix",
