@@ -1,8 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { HomePage } from '../pages/HomePage/HomePage';
-import { AuthPage } from '../pages/AuthPage/AuthPage';
-import { NotFoundPage } from '../pages/NotFoundPage/NotFoundPage';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HomePage } from "../pages/HomePage/HomePage";
+import { AuthPage } from "../pages/AuthPage/AuthPage";
+import { NotFoundPage } from "../pages/NotFoundPage/NotFoundPage";
 
 export const AppRoutes: React.FC = () => {
   return (
@@ -15,4 +15,3 @@ export const AppRoutes: React.FC = () => {
     </Router>
   );
 };
-

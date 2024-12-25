@@ -1,1 +1,1 @@
-import './NotFoundPage'
+import "./NotFoundPage";

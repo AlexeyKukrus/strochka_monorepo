@@ -4,15 +4,16 @@
   "version": "1.0.0",
   "scripts": {
     "setup": "pnpm install",
-    "dev": "pnpm run build && nest start --watch",
-    "test": "pnpm -r run test",
-    "lint": "eslint './client/src/**/*.ts' './server/src/**/*.ts' --fix",
-    "format": "pnpm -r run format",
+    "dev": "concurrently \"pnpm --filter client run dev\" \"pnpm --filter server run start:dev\"",
     "build": "pnpm -r run build",
-    "start": "pnpm -r run start",
+    "start": "concurrently \"pnpm --filter client run start\" \"pnpm --filter server run start\"",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "format": "pnpm -r run format",
     "deploy": "echo 'Deploy script here'"
   },
   "dependencies": {
+    "concurrently": "^9.1.0",
     "pnpm": "^9.15.1"
   }
 }

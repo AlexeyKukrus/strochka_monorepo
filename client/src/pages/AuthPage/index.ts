@@ -1,1 +1,1 @@
-import './AuthPage'
+import "./AuthPage";

@@ -1,1 +1,1 @@
-import { AppRoutes } from "./Routes";
+import './Routes'
